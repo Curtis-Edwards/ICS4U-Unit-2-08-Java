@@ -13,7 +13,7 @@ public class Vehicle {
     /**
      * numberOfTires.
     */
-    private int numberOfTires;
+    protected int numberOfTires;
 
     /**
      * The color of the bike.
