@@ -71,6 +71,15 @@ public class Vehicle {
     }
 
     /**
+     * Gets number of tires.
+     *
+     * @return get tires
+     */
+    public double getNumberOfTires() {
+        return this.numberOfTires;
+    }
+
+    /**
      * Sets the color of the vehicle.
      *
      * @param color The color to set.
