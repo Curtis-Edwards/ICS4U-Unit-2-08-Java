@@ -15,6 +15,11 @@ public class Bike extends Vehicle {
      */
     private int cadence;
 
+     /**
+     * numberOfTires.
+    */
+    private final int numberOfTires;
+
     /**
      * Constructor to initialize a bike.
      *
@@ -24,6 +29,7 @@ public class Bike extends Vehicle {
     public Bike(String color, int maxSpeed) {
         super(color, maxSpeed);
         this.cadence = 0;
+        this.numberOfTires = 2;
     }
 
     /**
