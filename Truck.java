@@ -18,7 +18,7 @@ public class Truck extends Vehicle {
     /**
      * numberOfTires.
     */
-    private final int numberOfTires = 6;
+    private final int numberOfTires;
 
     /**
      * Constructor to initialize a truck.
@@ -27,9 +27,10 @@ public class Truck extends Vehicle {
      * @param maxSpeed          The maximum speed of the truck.
      * @param licensePlateNumber The license plate number of the truck.
      */
-    public Truck(String color, int maxSpeed, String licensePlateNumber, int numberOfTires) {
-        super(color, maxSpeed, numberOfTires);
+    public Truck(String color, int maxSpeed, String licensePlateNumber) {
+        super(color, maxSpeed);
         this.licensePlateNumber = licensePlateNumber;
+        this.numberOfTires = 6;
     }
 
     /**
