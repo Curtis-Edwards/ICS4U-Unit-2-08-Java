@@ -11,6 +11,11 @@
 */
 public class Vehicle {
     /**
+     * Variables.
+    */
+    private int numberOfTires;
+
+    /**
      * The color of the bike.
      */
     private String color;
@@ -35,6 +40,7 @@ public class Vehicle {
         this.color = color;
         this.maxSpeed = maxSpeed;
         this.speed = 0;
+        this.numberOfTires = 1;
     }
 
     /**
@@ -80,6 +86,7 @@ public class Vehicle {
         System.out.println(" -> Speed: " + speed);
         System.out.println(" -> Max Speed: " + maxSpeed);
         System.out.println(" -> Color: " + color);
+        System.out.println(" -> Number of tires: " + numberOfTires);
     }
 
     /**
