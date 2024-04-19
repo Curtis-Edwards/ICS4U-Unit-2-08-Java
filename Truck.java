@@ -28,9 +28,9 @@ public class Truck extends Vehicle {
      * @param licensePlateNumber The license plate number of the truck.
      */
     public Truck(String color, int maxSpeed, String licensePlateNumber) {
-        super(color, maxSpeed);
+        super(color, maxSpeed, numberOfTires);
         this.licensePlateNumber = licensePlateNumber;
-        this.numberOfTires = 6;
+        //this.numberOfTires = 6;
 
     }
 
