@@ -36,11 +36,11 @@ public class Vehicle {
      * @param color    The color of the vehicle.
      * @param maxSpeed The maximum speed of the vehicle.
      */
-    public Vehicle(String color, int maxSpeed) {
+    public Vehicle(String color, int maxSpeed. int numberOfTires) {
         this.color = color;
         this.maxSpeed = maxSpeed;
         this.speed = 0;
-        this.numberOfTires = 1;
+        this.numberOfTires = numberOfTires;
     }
 
     /**
