@@ -55,7 +55,7 @@ public class Bike extends Vehicle {
      */
     public void status() {
         super.status();
-        System.out.println(" -> Cadence: " + cadence);
+        System.out.println(" -> Cadence: " + this.cadence);
     }
 
     /**
