@@ -92,10 +92,10 @@ public class Vehicle {
      * The status method.
      */
     public void status() {
-        System.out.println(" -> Speed: " + speed);
-        System.out.println(" -> Max Speed: " + maxSpeed);
-        System.out.println(" -> Color: " + color);
-        System.out.println(" -> Number of tires: " + numberOfTires);
+        System.out.println(" -> Speed: " + this.speed);
+        System.out.println(" -> Max Speed: " + this.maxSpeed);
+        System.out.println(" -> Color: " + this.color);
+        System.out.println(" -> Number of tires: " + this.numberOfTires);
     }
 
     /**
