@@ -57,7 +57,7 @@ public class Truck extends Vehicle {
      */
     public void status() {
         super.status();
-        System.out.println(" -> License Plate: " + licensePlateNumber);
+        System.out.println(" -> License Plate: " + this.licensePlateNumber);
     }
 
     /**
