@@ -13,7 +13,7 @@ public class Vehicle {
     /**
      * numberOfTires.
     */
-    protected int numberOfTires;
+    private int numberOfTires;
 
     /**
      * The color of the bike.
@@ -75,7 +75,7 @@ public class Vehicle {
      *
      * @return get tires
      */
-    public double getNumberOfTires() {
+    public int getNumberOfTires() {
         return this.numberOfTires;
     }
 
