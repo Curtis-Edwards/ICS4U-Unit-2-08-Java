@@ -75,7 +75,7 @@ public class Vehicle {
      *
      * @return get tires
      */
-    public int getNumberOfTires() {
+    /*public int getNumberOfTires() {
         return this.numberOfTires;
     }
 
